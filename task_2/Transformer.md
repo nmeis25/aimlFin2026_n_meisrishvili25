@@ -3,10 +3,9 @@
 ## Exam Information
 - **Name:** Naniko Meisrishvili
 - **Course:** AI and ML for Cybersecurity
-- **Task:** 2 (10 points)
+- **Task:** 2 
 - **Date:** 2026-02-12
-- **Repository:** aimlFin2026_n_meisrishvili25
-- **Folder:** task_2/
+
 
 ---
 
@@ -135,7 +134,7 @@ Track user activities across time to establish baselines and detect compromised 
 
 ### 3.1 Complete Code Implementation
 
-```python
+python
 """
 Simple Transformer Network for Network Intrusion Detection
 Author: Naniko Meisrishvili
@@ -589,5 +588,6 @@ can achieve perfect performance on a binary intrusion detection task.
 Transformer architectures are particularly well-suited for cybersecurity because
 security data is inherently **sequential**, **context-dependent**, and exhibits
 **long-range dependencies** that traditional models struggle to capture.
+
 
 
