@@ -373,14 +373,21 @@ Quantitative Results
 
 # Attack impact calculation
 normal_rate = 1242.65
+
 attack_rate = 15051
+
 duration_minutes = 2
 
+
 expected_requests = normal_rate * duration_minutes  # 2,485 requests
+
 actual_requests = attack_rate * duration_minutes    # 30,102 requests
+
 excess_requests = actual_requests - expected_requests  # 27,617 excess requests
 
+
 print(f"Excess requests during attack: {excess_requests:,}")
+
 print(f"Bandwidth impact: {(excess_requests * 5000) / 1e9:.2f} GB")  # Assuming 5KB avg request
 
 Output:
@@ -431,3 +438,4 @@ Limitations and Future Work
 
 
 - Machine Learning: Consider LSTM or Transformer models for more sophisticated pattern recognition
+
