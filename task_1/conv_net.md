@@ -15,9 +15,7 @@
 5. [Advanced CNN Variants](#advanced-variants)
 6. [Practical Implementation: Malware Classification](#practical-implementation)
 7. [Experimental Results](#results)
-8. [Discussion and Analysis](#discussion)
-9. [Conclusion](#conclusion)
-10. [References](#references)
+
 
 ---
 
@@ -459,5 +457,6 @@ All code is available in the repository with:
 ![Confusion Matrix - Neural Network](confusion_matrix.png)
 
 **Figure 3:** *Confusion matrix for neural network classifier. The perfect diagonal matrix (zero off-diagonal entries) confirms flawless classification across all six malware families.*
+
 
 
