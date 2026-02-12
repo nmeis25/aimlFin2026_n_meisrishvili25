@@ -141,9 +141,9 @@ This design captures patterns at multiple scales simultaneously:
 - **k=5**: Operation codes with operands
 - **k=7**: Complete instruction patterns
 
-![CNN Architecture Diagram](cnn_architecture.png)
+![image alt](https://github.com/nmeis25/aimlFin2026_n_meisrishvili25/blob/main/task_1/cnn_architecture_diagram.png)
 
-*Figure 1: Neural network architecture used for malware classification, featuring three hidden layers with 64, 32, and 16 neurons respectively. This architecture mimics CNN principles through hierarchical feature extraction.*
+
 
 ---
 
@@ -459,6 +459,7 @@ All code is available in the repository with:
 ![Confusion Matrix - Neural Network](confusion_matrix.png)
 
 **Figure 3:** *Confusion matrix for neural network classifier. The perfect diagonal matrix (zero off-diagonal entries) confirms flawless classification across all six malware families.*
+
 
 
 
