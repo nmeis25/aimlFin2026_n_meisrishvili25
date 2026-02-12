@@ -20,7 +20,7 @@
 7. [DDoS Attack Detection](#ddos-attack-detection)
 8. [Results](#results)
 9. [Conclusion](#conclusion)
-10. [Reproduction Guide](#reproduction-guide)
+
 
 ---
 
@@ -121,7 +121,7 @@ x = Time index
 
 The complete analysis was implemented in Python using pandas, numpy, matplotlib, and scikit-learn. Below are the core components:
 
-```python
+python
 import re
 import pandas as pd
 import numpy as np
@@ -428,5 +428,6 @@ Limitations and Future Work
 - Real-time detection: Current approach is retrospective; could be adapted for streaming data
 
 - Multi-vector attacks: Analysis only considers request volume; future work should include request size, geographic distribution, and application-layer patterns
+
 
 - Machine Learning: Consider LSTM or Transformer models for more sophisticated pattern recognition
