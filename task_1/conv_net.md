@@ -127,6 +127,8 @@ $$\text{ELU}(x) = \begin{cases} x & \text{if } x > 0 \\ \alpha(e^x - 1) & \text{
 
 ### 3.4 Multi-Kernel Design
 
+![image alt](https://github.com/nmeis25/aimlFin2026_n_meisrishvili25/blob/main/task_1/cnn_architecture_diagram.png)
+
 State-of-the-art cybersecurity CNNs employ **parallel convolutional branches** with varying kernel sizes:
 
 Input → Branch 1 (k=3) → Conv → Pool →
@@ -457,6 +459,7 @@ All code is available in the repository with:
 ![Confusion Matrix - Neural Network](confusion_matrix.png)
 
 **Figure 3:** *Confusion matrix for neural network classifier. The perfect diagonal matrix (zero off-diagonal entries) confirms flawless classification across all six malware families.*
+
 
 
 
