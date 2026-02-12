@@ -127,7 +127,6 @@ $$\text{ELU}(x) = \begin{cases} x & \text{if } x > 0 \\ \alpha(e^x - 1) & \text{
 
 ### 3.4 Multi-Kernel Design
 
-![image alt](https://github.com/nmeis25/aimlFin2026_n_meisrishvili25/blob/main/task_1/cnn_architecture_diagram.png)
 
 State-of-the-art cybersecurity CNNs employ **parallel convolutional branches** with varying kernel sizes:
 
@@ -297,7 +296,7 @@ All features are concatenated into an 80-dimensional feature vector and normaliz
 
 Instead of implementing a traditional CNN with explicit convolutional layers, we designed a **deep neural network** that embodies CNN principles through hierarchical feature extraction:
 
-```python
+python
 def create_neural_network(input_shape, num_classes):
     """
     Neural network architecture with hierarchical feature extraction
@@ -459,6 +458,7 @@ All code is available in the repository with:
 ![Confusion Matrix - Neural Network](confusion_matrix.png)
 
 **Figure 3:** *Confusion matrix for neural network classifier. The perfect diagonal matrix (zero off-diagonal entries) confirms flawless classification across all six malware families.*
+
 
 
 
